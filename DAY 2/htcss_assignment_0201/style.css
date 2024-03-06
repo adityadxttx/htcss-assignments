@@ -1,0 +1,69 @@
+.card{
+    width: 350px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cover{
+    position: relative;
+}
+.cover-img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.offer{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: royalblue;
+    color: white;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.time{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 10px;
+}
+.promo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background-color: gray;
+    color: lightgray;
+    border-radius: 2px;
+    padding: 0 4px;
+    font-size: 8px;
+}
+.restaurant{
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.cuisine{
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0 15px 0;
+}
+.disclaimer{
+    position: relative;
+}
+.safety-img{
+    width: 20%;
+    border-radius: 2px;
+}
+.desc{
+    width: 77%;
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+    color: gray;
+    font-size: 11px;
+}
